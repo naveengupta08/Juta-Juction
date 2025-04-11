@@ -254,3 +254,24 @@ footer{
         transform:translate(-50%,-50%) rotate(-40deg);
     }
 }
+@keyframes typing{
+    0%{
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+}
+@keyframes bounce{
+    0%,20%,50%,80%,100%{
+            top:50%;
+
+            transform:translate(-50%,-50%);
+    }
+    40%{
+        transform: translate(-50%,-55%);
+    }
+    60%{
+        transform: translate(-50%,-55%);
+    }
+}
